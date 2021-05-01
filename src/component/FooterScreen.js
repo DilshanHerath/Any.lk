@@ -52,34 +52,34 @@ class FooterScreen extends Component {
           </Button>
           <Button
             onPress={() => {
-              this.props.changeComponent('Reminder');
+              this.props.changeComponent('Category');
               // alert('Reminder');
             }}
           >
             <Image
               source={
-                this.props.currentScreen === 'Reminder' ? sreminder : reminder
+                this.props.currentScreen === 'Category' ? sreminder : reminder
               }
               style={styles.allIcons}
             />
           </Button>
           <Button
             onPress={() => {
-              this.props.changeComponent('plus');
+              this.props.changeComponent('Location');
             }}
           >
             <Image
-              source={this.props.currentScreen === 'plus' ? splus : plus}
+              source={this.props.currentScreen === 'Location' ? splus : plus}
               style={styles.allIcons}
             />
           </Button>
           <Button
             onPress={() => {
-              this.props.changeComponent('Star');
+              this.props.changeComponent('Filter');
             }}
           >
             <Image
-              source={this.props.currentScreen === 'Star' ? sstar : star}
+              source={this.props.currentScreen === 'Filter' ? sstar : star}
               style={styles.allIcons}
             />
           </Button>

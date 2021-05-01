@@ -2,7 +2,7 @@ import React from 'react';
 import { BackHandler, LayoutAnimation, UIManager, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import HomePage from './Homenew';
-import ReminderPage from './ReminderScreen';
+import Category from './CategoriesScreen';
 import LocationPage from './LocationScreen';
 import FavouritePage from './FavouritScreen';
 import AddsPage from './AddAddsScreen';
@@ -92,11 +92,11 @@ class MainContainer extends React.Component {
       <View style={{ flex: 1 }}>
         {this.props.currentScreen === 'Home' ? (
           <HomePage />
-        ) : this.props.currentScreen === 'Reminder' ? (
-          <ReminderPage />
-        ) : this.props.currentScreen === 'plus' ? (
+        ) : this.props.currentScreen === 'Category' ? (
+          <Category />
+        ) : this.props.currentScreen === 'Location' ? (
           <LocationPage />
-        ) : this.props.currentScreen === 'Star' ? (
+        ) : this.props.currentScreen === 'Filter' ? (
           <FavouritePage />
         ) : this.props.currentScreen === 'Ads' ? (
           <AddsPage />
