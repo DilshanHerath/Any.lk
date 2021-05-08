@@ -1,4 +1,8 @@
 export const font = {
-  PottaOneRegular: 'PottaOne-Regular',
   MontserratBold: 'Montserrat-Bold',
+  MontserratSemiBold: 'Montserrat-SemiBold',
+  MontserratRegular: 'Montserrat-Regular',
+  MontserratMedium: 'Montserrat-Medium',
+  PoppinsBold: 'Poppins-Bold',
+  PoppinsLight: 'Poppins-Light',
 };

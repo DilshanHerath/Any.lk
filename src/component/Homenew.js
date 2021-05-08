@@ -64,10 +64,14 @@ class Homenew extends Component {
                                 </TouchableOpacity>
                             </View>
                             <View>
-                                <Text style={Styles.txt2}>aNy.lk</Text>
+                                <Text
+                                    allowFontScaling={false}
+                                    style={Styles.txt2}>aNy.lk</Text>
                             </View>
                             <View>
-                                <TouchableOpacity onPress={()=>{Actions.profile()}}>
+                                <TouchableOpacity onPress={() => {
+                                    Actions.profile()
+                                }}>
                                     <Image
                                         style={{width: 45, height: 45, borderRadius: 100}}
                                         source={require('../assets/img/man2.jpg')}
@@ -95,13 +99,19 @@ class Homenew extends Component {
                         >
                             <View style={{}}>
                                 <View>
-                                    <Text style={Styles.txt1}>Categories</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt1}>Categories</Text>
                                 </View>
 
                             </View>
                             <View>
-                                <TouchableOpacity onPress={()=>{Actions.categories()}}>
-                                    <Text style={Styles.txt3}>See All</Text>
+                                <TouchableOpacity onPress={() => {
+                                    Actions.categories()
+                                }}>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>See All</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>
@@ -135,10 +145,11 @@ class Homenew extends Component {
                                         }}
                                     >
                                         <Text
+                                            allowFontScaling={false}
                                             style={{
-                                                fontSize: 15,
+                                                fontSize: 13,
                                                 color: 'white',
-                                                fontWeight: 'bold',
+                                                fontFamily:'Montserrat-SemiBold',
                                             }}
                                         >
                                             Electrician
@@ -167,10 +178,11 @@ class Homenew extends Component {
                                         }}
                                     >
                                         <Text
+                                            allowFontScaling={false}
                                             style={{
                                                 fontSize: 15,
                                                 color: 'white',
-                                                fontWeight: 'bold',
+                                                fontFamily:'Montserrat-SemiBold',
                                             }}
                                         >
                                             Carpenter
@@ -199,10 +211,11 @@ class Homenew extends Component {
                                         }}
                                     >
                                         <Text
+                                            allowFontScaling={false}
                                             style={{
                                                 fontSize: 15,
                                                 color: 'white',
-                                                fontWeight: 'bold',
+                                                fontFamily:'Montserrat-SemiBold',
                                             }}
                                         >
                                             Civil Engi.
@@ -231,10 +244,11 @@ class Homenew extends Component {
                                         }}
                                     >
                                         <Text
+                                            allowFontScaling={false}
                                             style={{
                                                 fontSize: 15,
                                                 color: 'white',
-                                                fontWeight: 'bold',
+                                                fontFamily:'Montserrat-SemiBold',
                                             }}
                                         >
                                             Painter
@@ -264,10 +278,11 @@ class Homenew extends Component {
                                         }}
                                     >
                                         <Text
+                                            allowFontScaling={false}
                                             style={{
                                                 fontSize: 15,
                                                 color: 'white',
-                                                fontWeight: 'bold',
+                                                fontFamily:'Montserrat-SemiBold',
                                             }}
                                         >
                                             Professional
@@ -302,167 +317,195 @@ class Homenew extends Component {
                             >
                                 <View style={{}}>
                                     <View>
-                                        <Text style={Styles.txt1}>All Advertiesments</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt1}>All Advertiesments</Text>
                                     </View>
 
                                 </View>
                                 <View>
                                     <TouchableOpacity style={{}}>
-                                        <Text style={Styles.txt3}>See All</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt3}>See All</Text>
                                     </TouchableOpacity>
                                 </View>
                             </View>
                         </View>
                     </View>
                     <View style={{alignItems: 'center'}}>
-                        <View style={{
-                            flexDirection: 'row',
-                            width: WIDTH - 50,
-                            justifyContent: 'space-between',
-                            backgroundColor: 'white',
-                            borderRadius: 10
-                        }}>
-                            <View>
-                                <Image
-                                    style={{width: 150, height: 100, borderRadius: 10}}
-                                    source={require('../assets/img/adss.png')}
-                                />
+                        <TouchableOpacity>
+                            <View style={{
+                                flexDirection: 'row',
+                                width: WIDTH - 50,
+                                justifyContent: 'space-between',
+                                backgroundColor: 'white',
+                                borderRadius: 10
+                            }}>
+                                <View>
+                                    <Image
+                                        style={{width: 150, height: 100, borderRadius: 10}}
+                                        source={require('../assets/img/adss.png')}
+                                    />
+                                </View>
+                                <View style={{alignItems: 'center'}}>
+                                    <View style={{marginTop: '5%'}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
+                                    </View>
+                                    <View style={{flexDirection: 'row'}}>
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                    </View>
+                                </View>
+                                <View style={{width: 4}}></View>
                             </View>
-                            <View style={{alignItems: 'center'}}>
-                                <View style={{marginTop: '5%'}}>
-                                    <Text style={Styles.txt5}>Hasitha Auto Service</Text>
-                                </View>
-                                <View style={{}}>
-                                    <Text style={Styles.txt6}>Baduraliya</Text>
-                                </View>
-                                <View style={{}}>
-                                    <Text style={Styles.txt6}>0719558642</Text>
-                                </View>
-                                <View style={{flexDirection: 'row'}}>
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                </View>
-                            </View>
-                            <View style={{width: 4}}></View>
-                        </View>
+                        </TouchableOpacity>
                     </View>
                     <View style={{alignItems: 'center', marginTop: '5%'}}>
-                        <View style={{
-                            flexDirection: 'row',
-                            width: WIDTH - 50,
-                            justifyContent: 'space-between',
-                            backgroundColor: 'white',
-                            borderRadius: 10
-                        }}>
-                            <View>
-                                <Image
-                                    style={{width: 150, height: 100, borderRadius: 10}}
-                                    source={require('../assets/img/adss.png')}
-                                />
+                        <TouchableOpacity>
+                            <View style={{
+                                flexDirection: 'row',
+                                width: WIDTH - 50,
+                                justifyContent: 'space-between',
+                                backgroundColor: 'white',
+                                borderRadius: 10
+                            }}>
+                                <View>
+                                    <Image
+                                        style={{width: 150, height: 100, borderRadius: 10}}
+                                        source={require('../assets/img/adss.png')}
+                                    />
+                                </View>
+                                <View style={{alignItems: 'center'}}>
+                                    <View style={{marginTop: '5%'}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
+                                    </View>
+                                    <View style={{flexDirection: 'row'}}>
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                    </View>
+                                </View>
+                                <View style={{width: 4}}></View>
                             </View>
-                            <View style={{alignItems: 'center'}}>
-                                <View style={{marginTop: '5%'}}>
-                                    <Text style={Styles.txt5}>Hasitha Auto Service</Text>
-                                </View>
-                                <View style={{}}>
-                                    <Text style={Styles.txt6}>Baduraliya</Text>
-                                </View>
-                                <View style={{}}>
-                                    <Text style={Styles.txt6}>0719558642</Text>
-                                </View>
-                                <View style={{flexDirection: 'row'}}>
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                </View>
-                            </View>
-                            <View style={{width: 4}}></View>
-                        </View>
+                        </TouchableOpacity>
                     </View>
                     <View style={{alignItems: 'center', marginTop: '5%', marginBottom: '5%'}}>
-                        <View style={{
-                            flexDirection: 'row',
-                            width: WIDTH - 50,
-                            justifyContent: 'space-between',
-                            backgroundColor: 'white',
-                            borderRadius: 10
-                        }}>
-                            <View>
-                                <Image
-                                    style={{width: 150, height: 100, borderRadius: 10}}
-                                    source={require('../assets/img/adss.png')}
-                                />
+                        <TouchableOpacity>
+                            <View style={{
+                                flexDirection: 'row',
+                                width: WIDTH - 50,
+                                justifyContent: 'space-between',
+                                backgroundColor: 'white',
+                                borderRadius: 10
+                            }}>
+                                <View>
+                                    <Image
+                                        style={{width: 150, height: 100, borderRadius: 10}}
+                                        source={require('../assets/img/adss.png')}
+                                    />
+                                </View>
+                                <View style={{alignItems: 'center'}}>
+                                    <View style={{marginTop: '5%'}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
+                                    </View>
+                                    <View style={{flexDirection: 'row'}}>
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                    </View>
+                                </View>
+                                <View style={{width: 4}}></View>
                             </View>
-                            <View style={{alignItems: 'center'}}>
-                                <View style={{marginTop: '5%'}}>
-                                    <Text style={Styles.txt5}>Hasitha Auto Service</Text>
-                                </View>
-                                <View style={{}}>
-                                    <Text style={Styles.txt6}>Baduraliya</Text>
-                                </View>
-                                <View style={{}}>
-                                    <Text style={Styles.txt6}>0719558642</Text>
-                                </View>
-                                <View style={{flexDirection: 'row'}}>
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                    <Image
-                                        style={{width: 17, height: 17}}
-                                        source={require('../assets/icon/star.png')}
-                                    />
-                                </View>
-                            </View>
-                            <View style={{width: 4}}></View>
-                        </View>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </ScrollView>
@@ -489,27 +532,21 @@ const Styles = StyleSheet.create({
         marginHorizontal: 6,
         borderRadius: 21,
         justifyContent: 'flex-end',
-        // alignItems: 'center',
-        // justifyContent: 'center',
     },
     txt1: {
-        fontSize: 25,
-        fontWeight: 'bold',
+        fontSize: 20,
         color: 'black',
-        // marginLeft: '5%',
+        fontFamily: 'Montserrat-Bold',
     },
     txt2: {
-        fontSize: 28,
-        fontWeight: 'bold',
-        // marginLeft: '5%',
+        fontSize: 25,
+        fontFamily: 'Montserrat-Bold',
         color: 'white',
     },
     txt3: {
-        fontSize: 15,
+        fontSize: 13,
         color: '#24b2ff',
-        fontWeight: 'bold',
-        // marginTop:'4%',
-        // marginLeft: '5%',
+        fontFamily: 'Montserrat-SemiBold',
     },
     txt4: {
         fontSize: 25,
@@ -543,13 +580,13 @@ const Styles = StyleSheet.create({
         marginTop: '4%',
     },
     txt5: {
-        fontSize: 20,
-        fontWeight: 'bold',
+        fontSize: 14,
+        fontFamily:'Montserrat-SemiBold',
         color: '#0a7efa',
     },
     txt6: {
-        fontSize: 16,
-        fontWeight: 'bold',
+        fontSize: 12,
+        fontFamily:'Montserrat-SemiBold',
         color: 'black',
     },
 });

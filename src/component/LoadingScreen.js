@@ -39,6 +39,7 @@ export default class LoadingScreen extends Component {
                       }}
                   >
                       <Text
+                          allowFontScaling={false}
                           style={{
                               color: 'white',
                               fontWeight: 'bold',

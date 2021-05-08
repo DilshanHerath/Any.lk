@@ -56,7 +56,9 @@ class LocationScreen extends Component {
                                 </TouchableOpacity>
                             </View>
                             <View style={{}}>
-                                <Text style={Styles.txt2}>Location</Text>
+                                <Text
+                                    allowFontScaling={false}
+                                    style={Styles.txt2}>Location</Text>
                             </View>
                             <View style={{width: 30}}></View>
                         </View>
@@ -79,7 +81,9 @@ class LocationScreen extends Component {
 
                         elevation: 10,
                     }}>
-                        <Text style={Styles.txt1}>All of SriLanka</Text>
+                        <Text
+                            allowFontScaling={false}
+                            style={Styles.txt1}>All of SriLanka</Text>
                     </View>
                     <TouchableOpacity
                         onPress={() => {
@@ -110,7 +114,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Kaluthara</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Kaluthara</Text>
                                 </View>
                             </View>
                         </View>
@@ -145,7 +151,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Colombo</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Colombo</Text>
                                 </View>
                             </View>
                         </View>
@@ -180,7 +188,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Gampaha</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Gampaha</Text>
                                 </View>
                             </View>
                         </View>
@@ -215,7 +225,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Galle</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Galle</Text>
                                 </View>
                             </View>
                         </View>
@@ -250,7 +262,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Matara</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Matara</Text>
                                 </View>
                             </View>
                         </View>
@@ -285,7 +299,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Hambantota</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Hambantota</Text>
                                 </View>
                             </View>
                         </View>
@@ -320,7 +336,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Kandy</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Kandy</Text>
                                 </View>
                             </View>
                         </View>
@@ -355,7 +373,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Matale</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Matale</Text>
                                 </View>
                             </View>
                         </View>
@@ -390,7 +410,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Nuwara Eliya</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Nuwara Eliya</Text>
                                 </View>
                             </View>
                         </View>
@@ -425,7 +447,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Kegalla</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Kegalla</Text>
                                 </View>
                             </View>
                         </View>
@@ -460,7 +484,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Ratnapura</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Ratnapura</Text>
                                 </View>
                             </View>
                         </View>
@@ -495,7 +521,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Badulla</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Badulla</Text>
                                 </View>
                             </View>
                         </View>
@@ -530,7 +558,9 @@ class LocationScreen extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Monaragala</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Monaragala</Text>
                                 </View>
                             </View>
                         </View>
@@ -556,21 +586,21 @@ export default connect(mapStateToProps, {
 
 const Styles = StyleSheet.create({
     txt1: {
-        fontSize: 20,
-        // fontWeight: 'bold',
+        fontSize: 18,
         color: '#0963ed',
         marginLeft: '5%',
+        fontFamily: 'Poppins-Bold',
     },
     txt2: {
-        fontSize: 28,
-        fontWeight: 'bold',
+        fontSize: 25,
+        fontFamily: 'Montserrat-Bold',
         color: 'white',
     },
     txt3: {
         fontSize: 18,
-        // fontWeight: 'bold',
         color: '#24b2ff',
         marginLeft: '5%',
+        fontFamily:'Poppins-Light',
     },
 });
 

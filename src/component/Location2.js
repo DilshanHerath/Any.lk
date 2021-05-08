@@ -55,7 +55,9 @@ class Location2 extends Component {
                                 </TouchableOpacity>
                             </View>
                             <View style={{}}>
-                                <Text style={Styles.txt2}>Location</Text>
+                                <Text
+                                    allowFontScaling={false}
+                                    style={Styles.txt2}>Location</Text>
                             </View>
                             <View style={{width: 30}}></View>
                         </View>
@@ -78,7 +80,9 @@ class Location2 extends Component {
 
                         elevation: 10,
                     }}>
-                        <Text style={Styles.txt1}>All of Kaluthara</Text>
+                        <Text
+                            allowFontScaling={false}
+                            style={Styles.txt1}>All of Kaluthara</Text>
                     </View>
                     <TouchableOpacity>
                         <View style={{alignItems: 'center', marginBottom: '4%', marginTop: '5%'}}>
@@ -105,7 +109,9 @@ class Location2 extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Mathugama</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Mathugama</Text>
                                 </View>
                             </View>
                         </View>
@@ -136,7 +142,9 @@ class Location2 extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Baduraliya</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Baduraliya</Text>
                                 </View>
                             </View>
                         </View>
@@ -167,7 +175,9 @@ class Location2 extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Panadura</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Panadura</Text>
                                 </View>
                             </View>
                         </View>
@@ -198,7 +208,9 @@ class Location2 extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Horana</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Horana</Text>
                                 </View>
                             </View>
                         </View>
@@ -229,7 +241,9 @@ class Location2 extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Aluthgama</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Aluthgama</Text>
                                 </View>
                             </View>
                         </View>
@@ -260,7 +274,9 @@ class Location2 extends Component {
                                 </View>
 
                                 <View style={{marginLeft: '5%'}}>
-                                    <Text style={Styles.txt3}>Bandaragama</Text>
+                                    <Text
+                                        allowFontScaling={false}
+                                        style={Styles.txt3}>Bandaragama</Text>
                                 </View>
                             </View>
                         </View>
@@ -287,21 +303,21 @@ export default connect(mapStateToProps, {
 
 const Styles = StyleSheet.create({
     txt1: {
-        fontSize: 20,
-        // fontWeight: 'bold',
+        fontSize: 18,
         color: '#0963ed',
         marginLeft: '5%',
+        fontFamily: 'Poppins-Bold',
     },
     txt2: {
-        fontSize: 28,
-        fontWeight: 'bold',
+        fontSize: 25,
+        fontFamily: 'Montserrat-Bold',
         color: 'white',
     },
     txt3: {
         fontSize: 18,
-        // fontWeight: 'bold',
         color: '#24b2ff',
         marginLeft: '5%',
+        fontFamily:'Poppins-Light',
     },
 });
 

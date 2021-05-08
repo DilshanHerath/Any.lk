@@ -15,7 +15,8 @@ const {width: WIDTH, height: height} = Dimensions.get('window');
 import {changeComponent, changeIconComponent} from '../action/FooterAction';
 
 
-const img=require('../assets/img/adssss.png')
+const img = require('../assets/img/adssss.png')
+
 class ProfileScreen extends Component {
     render() {
         return (
@@ -32,19 +33,14 @@ class ProfileScreen extends Component {
                             backgroundColor: '#1986fa',
                             width: WIDTH,
                             height: height / 5.5,
-                            // marginBottom: '3%',
                             borderBottomLeftRadius: 20,
                             borderBottomRightRadius: 20,
-                            // alignItems: 'center',
-                            // justifyContent: 'center',
                         }}
                     >
                         <View
                             style={{
                                 flexDirection: 'row',
                                 justifyContent: 'space-between',
-                                // marginTop: '3%',
-                                // marginBottom: '5%',
                                 alignItems: 'center',
                                 width: WIDTH - 50,
                             }}
@@ -93,20 +89,25 @@ class ProfileScreen extends Component {
                                        source={require('../assets/img/ProfilePhoto.png')}/>
                             </View>
                             <View>
-                                <Text style={{fontWeight: 'bold', fontSize: 28}}>Sanduni Perera</Text>
+                                <Text
+                                    allowFontScaling={false}
+                                    style={{fontSize: 23, fontFamily: 'Poppins-Bold'}}>Sanduni Perera</Text>
                             </View>
-                            <View style={{marginBottom: '10%', marginTop: '2%'}}>
-                                <Text style={{
-                                    fontSize: 23, color:
-                                        '#999999'
-                                }}>Auto Mobile Service Agent</Text>
+                            <View style={{marginBottom: '8%'}}>
+                                <Text
+                                    allowFontScaling={false}
+                                    style={{
+                                        fontSize: 14, color: '#999999', fontFamily: 'Poppins-Light',
+                                    }}>Auto Mobile Service Agent</Text>
                             </View>
 
                         </View>
                     </View>
 
-                    <View style={{marginTop: '9%'}}>
-                        <Text style={{fontWeight: 'bold', fontSize: 26, marginLeft: '4%'}}>Personal Info</Text>
+                    <View style={{marginTop: '11%'}}>
+                        <Text
+                            allowFontScaling={false}
+                            style={{fontFamily: 'Poppins-Bold', fontSize: 22, marginLeft: '4%'}}>Personal Info</Text>
                     </View>
 
                     <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
@@ -115,7 +116,7 @@ class ProfileScreen extends Component {
                             // alignItems: 'center',
                             // height: 150,
                             backgroundColor: 'white',
-                            marginTop: '2%',
+                            // marginTop: '2%',
                             shadowColor: "#000",
                             shadowOffset: {
                                 width: 0,
@@ -165,13 +166,21 @@ class ProfileScreen extends Component {
                                     </View>
                                     <View style={{marginLeft: '10%'}}>
                                         <View>
-                                            <Text style={{
-                                                fontSize: 17, color:
-                                                    '#999999'
-                                            }}>Location</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontSize: 11, color:
+                                                        '#999999', fontFamily: 'Poppins-Light',
+                                                }}>Location</Text>
                                         </View>
                                         <View>
-                                            <Text style={{fontWeight: 'bold', fontSize: 20,color:'#474a47'}}>Mathugama</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontFamily: 'Poppins-Bold',
+                                                    fontSize: 13,
+                                                    color: '#474a47'
+                                                }}>Mathugama</Text>
                                         </View>
                                     </View>
 
@@ -194,17 +203,21 @@ class ProfileScreen extends Component {
                                     </View>
                                     <View style={{marginLeft: '10%'}}>
                                         <View>
-                                            <Text style={{
-                                                fontSize: 17, color:
-                                                    '#999999'
-                                            }}>E-mail</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontSize: 11, color:
+                                                        '#999999',fontFamily: 'Poppins-Light',
+                                                }}>E-mail</Text>
                                         </View>
                                         <View>
-                                            <Text style={{
-                                                fontWeight: 'bold',
-                                                fontSize: 20,
-                                                color:'#474a47',
-                                            }}>sanduniperera981@gmail.com</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontFamily: 'Poppins-Bold',
+                                                    fontSize: 13,
+                                                    color: '#474a47',
+                                                }}>sanduniperera981@gmail.com</Text>
                                         </View>
                                     </View>
 
@@ -228,13 +241,21 @@ class ProfileScreen extends Component {
                                     </View>
                                     <View style={{marginLeft: '10%'}}>
                                         <View>
-                                            <Text style={{
-                                                fontSize: 17, color:
-                                                    '#999999'
-                                            }}>Telephone</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontSize: 11, color:
+                                                        '#999999', fontFamily: 'Poppins-Light'
+                                                }}>Telephone</Text>
                                         </View>
                                         <View>
-                                            <Text style={{fontWeight: 'bold', fontSize: 20,color:'#474a47'}}>071-9556472</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontFamily: 'Poppins-Bold',
+                                                    fontSize: 13,
+                                                    color: '#474a47'
+                                                }}>071-9556472</Text>
                                         </View>
                                     </View>
 
@@ -258,13 +279,18 @@ class ProfileScreen extends Component {
                                     </View>
                                     <View style={{marginLeft: '10%'}}>
                                         <View>
-                                            <Text style={{
-                                                fontSize: 17, color:
-                                                    '#999999'
-                                            }}>Works at</Text>
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{
+                                                    fontSize: 11, color:
+                                                        '#999999',fontFamily:'Poppins-Light',
+                                                }}>Works at</Text>
                                         </View>
                                         <View style={{marginBottom: '8%'}}>
-                                            <Text style={{fontWeight: 'bold', fontSize: 20,color:'#474a47'}}>Hasitha Auto Service -
+                                            <Text
+                                                allowFontScaling={false}
+                                                style={{fontFamily: 'Poppins-Bold', fontSize: 13, color: '#474a47'}}>Hasitha
+                                                Auto Service -
                                                 Baduraliya</Text>
                                         </View>
                                     </View>
@@ -275,71 +301,79 @@ class ProfileScreen extends Component {
                         </View>
                     </View>
 
-                    <View style={{marginTop: '4%', marginBottom: '3%'}}>
-                        <Text style={{fontWeight: 'bold', fontSize: 26, marginLeft: '4%'}}>Posted Add</Text>
+                    <View style={{marginTop: '5%'}}>
+                        <Text
+                            allowFontScaling={false}
+                            style={{fontFamily: 'Poppins-Bold', fontSize: 22, marginLeft: '4%'}}>Posted Add</Text>
                     </View>
 
 
-                    <View style={{alignItems: 'center', marginBottom: '5%'}}>
-                       <TouchableOpacity>
-                           <View style={{
-                               flexDirection: 'row',
-                               width: WIDTH - 40,
-                               justifyContent: 'space-between',
-                               backgroundColor: 'white',
-                               borderRadius: 10,
-                               shadowColor: "#000",
-                               shadowOffset: {
-                                   width: 0,
-                                   height: 4,
-                               },
-                               shadowOpacity: 0.30,
-                               shadowRadius: 4.65,
+                    <View style={{alignItems: 'center', marginBottom: '3%'}}>
+                        <TouchableOpacity>
+                            <View style={{
+                                flexDirection: 'row',
+                                width: WIDTH - 40,
+                                justifyContent: 'space-between',
+                                backgroundColor: 'white',
+                                borderRadius: 10,
+                                shadowColor: "#000",
+                                shadowOffset: {
+                                    width: 0,
+                                    height: 4,
+                                },
+                                shadowOpacity: 0.30,
+                                shadowRadius: 4.65,
 
-                               elevation: 8,
-                           }}>
-                               <View>
-                                   <Image
-                                       style={Styles.imagestyle}
-                                       source={img}
-                                   />
-                               </View>
-                               <View style={{alignItems: 'center'}}>
-                                   <View style={{marginTop: '5%'}}>
-                                       <Text style={Styles.txt5}>Hasitha Auto Service</Text>
-                                   </View>
-                                   <View style={{}}>
-                                       <Text style={Styles.txt6}>Baduraliya</Text>
-                                   </View>
-                                   <View style={{}}>
-                                       <Text style={Styles.txt6}>0719558642</Text>
-                                   </View>
-                                   <View style={{flexDirection: 'row'}}>
-                                       <Image
-                                           style={{width: 17, height: 17}}
-                                           source={require('../assets/icon/star.png')}
-                                       />
-                                       <Image
-                                           style={{width: 17, height: 17}}
-                                           source={require('../assets/icon/star.png')}
-                                       />
-                                       <Image
-                                           style={{width: 17, height: 17}}
-                                           source={require('../assets/icon/star.png')}
-                                       />
-                                       <Image
-                                           style={{width: 17, height: 17}}
-                                           source={require('../assets/icon/star.png')}
-                                       />
-                                       <Image
-                                           style={{width: 17, height: 17}}
-                                           source={require('../assets/icon/star.png')}
-                                       />
-                                   </View>
-                               </View>
-                               <View style={{width: 4}}></View>
-                           </View>
-                       </TouchableOpacity>
+                                elevation: 8,
+                            }}>
+                                <View>
+                                    <Image
+                                        style={Styles.imagestyle}
+                                        source={img}
+                                    />
+                                </View>
+                                <View style={{alignItems: 'center'}}>
+                                    <View style={{marginTop: '5%'}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
+                                    </View>
+                                    <View style={{}}>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
+                                    </View>
+                                    <View style={{flexDirection: 'row'}}>
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                        <Image
+                                            style={{width: 17, height: 17}}
+                                            source={require('../assets/icon/star.png')}
+                                        />
+                                    </View>
+                                </View>
+                                <View style={{width: 4}}></View>
+                            </View>
+                        </TouchableOpacity>
                     </View>
 
                     <View style={{alignItems: 'center', marginBottom: '5%'}}>
@@ -368,13 +402,19 @@ class ProfileScreen extends Component {
                                 </View>
                                 <View style={{alignItems: 'center'}}>
                                     <View style={{marginTop: '5%'}}>
-                                        <Text style={Styles.txt5}>Hasitha Auto Service</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
                                     </View>
                                     <View style={{}}>
-                                        <Text style={Styles.txt6}>Baduraliya</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
                                     </View>
                                     <View style={{}}>
-                                        <Text style={Styles.txt6}>0719558642</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
                                     </View>
                                     <View style={{flexDirection: 'row'}}>
                                         <Image
@@ -431,13 +471,19 @@ class ProfileScreen extends Component {
                                 </View>
                                 <View style={{alignItems: 'center'}}>
                                     <View style={{marginTop: '5%'}}>
-                                        <Text style={Styles.txt5}>Hasitha Auto Service</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
                                     </View>
                                     <View style={{}}>
-                                        <Text style={Styles.txt6}>Baduraliya</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
                                     </View>
                                     <View style={{}}>
-                                        <Text style={Styles.txt6}>0719558642</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
                                     </View>
                                     <View style={{flexDirection: 'row'}}>
                                         <Image
@@ -494,13 +540,19 @@ class ProfileScreen extends Component {
                                 </View>
                                 <View style={{alignItems: 'center'}}>
                                     <View style={{marginTop: '5%'}}>
-                                        <Text style={Styles.txt5}>Hasitha Auto Service</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt5}>Hasitha Auto Service</Text>
                                     </View>
                                     <View style={{}}>
-                                        <Text style={Styles.txt6}>Baduraliya</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>Baduraliya</Text>
                                     </View>
                                     <View style={{}}>
-                                        <Text style={Styles.txt6}>0719558642</Text>
+                                        <Text
+                                            allowFontScaling={false}
+                                            style={Styles.txt6}>0719558642</Text>
                                     </View>
                                     <View style={{flexDirection: 'row'}}>
                                         <Image
@@ -549,35 +601,22 @@ export default connect(mapStateToProps, {
 })(ProfileScreen);
 
 const Styles = StyleSheet.create({
-    txt2: {
-        fontSize: 28,
-        fontWeight: 'bold',
-        color: 'white',
-    },
-    txt3: {
-        fontSize: 18,
 
-    },
-    txt4: {
-        fontSize: 18,
-        marginLeft: '5%',
-        color: '#000CAF',
-    },
     txt5: {
-        fontSize: 20,
-        fontWeight: 'bold',
+        fontSize: 14,
+        fontFamily:'Montserrat-SemiBold',
         color: '#0a7efa',
     },
     txt6: {
-        fontSize: 16,
-        fontWeight: 'bold',
+        fontSize: 12,
+        fontFamily:'Montserrat-SemiBold',
         color: 'black',
     },
-    imagestyle:{
+    imagestyle: {
         width: 150,
         height: 100,
         borderRadius: 10,
-        opacity:0.85,
+        opacity: 0.85,
     },
 });
 
