@@ -64,16 +64,16 @@ class ProfileScreen extends Component {
                         <View style={{
                             width: WIDTH - 30,
                             backgroundColor: 'white',
-                            // borderRadius: 15,
+                            borderRadius: 10,
                             shadowColor: "#000",
                             shadowOffset: {
                                 width: 0,
-                                height: 3,
+                                height: 1,
                             },
-                            shadowOpacity: 0.27,
-                            shadowRadius: 4.65,
+                            shadowOpacity: 0.22,
+                            shadowRadius: 2.22,
 
-                            elevation: 6,
+                            elevation: 3,
                             alignItems: 'center',
                             justifyContent: 'center',
                         }}>
@@ -113,6 +113,7 @@ class ProfileScreen extends Component {
                     <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
                         <View style={{
                             width: WIDTH - 30,
+                            borderRadius:10, 
                             // alignItems: 'center',
                             // height: 150,
                             backgroundColor: 'white',
@@ -120,12 +121,12 @@ class ProfileScreen extends Component {
                             shadowColor: "#000",
                             shadowOffset: {
                                 width: 0,
-                                height: 3,
+                                height: 1,
                             },
-                            shadowOpacity: 0.27,
-                            shadowRadius: 4.65,
+                            shadowOpacity: 0.22,
+                            shadowRadius: 2.22,
 
-                            elevation: 6,
+                            elevation: 3,
                         }}>
                             <View style={{alignItems: 'center'}}>
                                 <View style={{alignItems: 'flex-end', width: WIDTH - 70, marginTop: '-6%'}}>
