@@ -366,23 +366,23 @@ class Homenew extends Component {
                                     </View>
                                     <View style={{flexDirection: 'row'}}>
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                     </View>
@@ -424,23 +424,23 @@ class Homenew extends Component {
                                     </View>
                                     <View style={{flexDirection: 'row'}}>
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                     </View>
@@ -482,23 +482,23 @@ class Homenew extends Component {
                                     </View>
                                     <View style={{flexDirection: 'row'}}>
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                         <Image
-                                            style={{width: 17, height: 17}}
+                                            style={Styles.icnstar}
                                             source={require('../assets/icon/star.png')}
                                         />
                                     </View>
@@ -516,7 +516,7 @@ class Homenew extends Component {
 const Styles = StyleSheet.create({
     mainview: {
         flex: 1,
-        backgroundColor: '#e5e1eb',
+        backgroundColor: '#f5f4f2',
     },
     imageStyle: {
         width: WIDTH - 35,
@@ -534,7 +534,7 @@ const Styles = StyleSheet.create({
         justifyContent: 'flex-end',
     },
     txt1: {
-        fontSize: 20,
+        fontSize: 18,
         color: 'black',
         fontFamily: 'Montserrat-Bold',
     },
@@ -544,7 +544,7 @@ const Styles = StyleSheet.create({
         color: 'white',
     },
     txt3: {
-        fontSize: 13,
+        fontSize: 12,
         color: '#24b2ff',
         fontFamily: 'Montserrat-SemiBold',
     },
@@ -580,7 +580,7 @@ const Styles = StyleSheet.create({
         marginTop: '4%',
     },
     txt5: {
-        fontSize: 14,
+        fontSize: 12,
         fontFamily:'Montserrat-SemiBold',
         color: '#0a7efa',
     },
@@ -588,6 +588,10 @@ const Styles = StyleSheet.create({
         fontSize: 12,
         fontFamily:'Montserrat-SemiBold',
         color: 'black',
+    },
+    icnstar:{
+        width: 15,
+        height: 15,
     },
 });
 

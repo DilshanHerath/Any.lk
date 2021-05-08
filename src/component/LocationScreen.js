@@ -22,7 +22,7 @@ class LocationScreen extends Component {
                 <View
                     style={{
                         flex: 1,
-                        backgroundColor: '#e5e1eb',
+                        backgroundColor: '#f5f4f2',
                     }}
                 >
                     <View
@@ -91,23 +91,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%', marginTop: '5%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -128,23 +112,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -165,23 +133,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -202,23 +154,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -239,23 +175,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -276,23 +196,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -313,23 +217,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -350,23 +238,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -387,23 +259,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -424,23 +280,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -461,23 +301,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -498,23 +322,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -535,23 +343,7 @@ class LocationScreen extends Component {
                         }}
                     >
                         <View style={{alignItems: 'center', marginBottom: '4%'}}>
-                            <View style={{
-                                width: WIDTH - 30,
-                                height: 45,
-                                backgroundColor: 'white',
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                borderRadius: 6,
-                                shadowColor: "#000",
-                                shadowOffset: {
-                                    width: 0,
-                                    height: 2,
-                                },
-                                shadowOpacity: 0.23,
-                                shadowRadius: 2.62,
-
-                                elevation: 4,
-                            }}>
+                            <View style={Styles.viewstyle}>
 
                                 <View style={{marginLeft: '5%'}}>
                                     <Image style={{width: 25, height: 25}} source={require('../assets/icon/loc.png')}/>
@@ -601,6 +393,14 @@ const Styles = StyleSheet.create({
         color: '#24b2ff',
         marginLeft: '5%',
         fontFamily:'Poppins-Light',
+    },
+    viewstyle:{
+        width: WIDTH - 30,
+        height: 45,
+        backgroundColor: 'white',
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderRadius: 6,
     },
 });
 

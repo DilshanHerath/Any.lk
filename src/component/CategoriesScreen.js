@@ -370,7 +370,7 @@ export default class CategoriesScreen extends Component {
 const Styles = StyleSheet.create({
     mainview: {
         flex: 1,
-        backgroundColor: '#e5e1eb',
+        backgroundColor: '#f5f4f2',
     },
     txttittle: {
         fontSize: 25,
@@ -378,7 +378,7 @@ const Styles = StyleSheet.create({
         color: 'white',
     },
     txt: {
-        fontSize: 16,
+        fontSize: 14,
         fontFamily: 'Montserrat-SemiBold',
         marginTop:'5%',
         marginBottom:'5%',
